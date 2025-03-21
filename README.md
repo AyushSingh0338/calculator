@@ -64,7 +64,7 @@ The switch to scientific mode will be made by pointing this Calculator class poi
 
 This simplifies the main code as the statement `calcPtr->welcome()` will automatically call the right welcome function, detailing out the proper options for the current mode.
 
-#### Nifty Features
+####   Nifty Features
 
 1. Users are able to enter a range of inputs that correspond to each operation. For example: “+”, “add”, “addition”, “sum” all trigger the addition operation.
 2. This calculator has a memory feature. The result of a previous calculation is always stored and can be accessed using the keyword `result`. This keyword can be used as a number. Thus, the user could enter: `sub` to choose the subtraction operation then type in `result` and `1` to take one away from the previous result. The `mem` keyword allows a user to store a number for later use. This is highly useful when doing long calculations. An important result can be stored into `mem`, then accessed later by using `mem` as an entry in your calculations.
